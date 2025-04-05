@@ -17,7 +17,7 @@ llm = ChatOpenAI(model="gpt-4o")
 async def main():
     agent = Agent(
         task="""First, visit the website https://secondbrainlabs.com/ to understand what they are building. 
-        Go to Y Combinator, reddit pages, and other popular websites to search for companies that are currently working on a similar goal or idea as the Indian startup Second Brain Labs, 
+        Go to Y Combinator, reddit pages, and other popular websites to search for companies that are currently working on a similar idea as the Indian startup Second Brain Labs, 
         go to an online notepad website and list down companies you found.""",
         llm=llm,
         browser=browser,
